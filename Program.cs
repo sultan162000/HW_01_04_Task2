@@ -31,16 +31,7 @@ namespace HW_02_04_20_task2
         }
 
 
-        public double Area{get{return AreaCalculator();}}
-        public double Perimetr{get{return PerimeterCalculator();}}
-        private double AreaCalculator()
-        {
-            return side1 * side2;           
-        }
-        private double PerimeterCalculator()
-        {
-            return 2 * (side1 + side2);
-        }
+        
 
 
     }
